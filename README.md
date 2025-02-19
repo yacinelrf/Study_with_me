@@ -8,6 +8,7 @@
 <br>
 <br>
 <br>
+<div align="center">
 <img src="https://github.com/user-attachments/assets/053f4ae7-87fd-449f-9df6-0f32af392c76" alt="sass" width="50">
 <img src="https://github.com/user-attachments/assets/2d55a0db-bc5e-4437-9331-3ca5e171fec6" alt="react" width="50">
 <img src="https://github.com/user-attachments/assets/6c296661-21e1-4289-ace8-e94fb8f69760" alt="js" width="50">
@@ -19,5 +20,5 @@
 <img src="java-icon-1511x2048-6ikx8301](https://github.com/user-attachments/assets/dfa8c67b-afbd-49ed-8110-ed067791631e">
 <img src="https://github.com/user-attachments/assets/e331628c-d7df-4c57-ab20-9c70079a063d"alt="Bootstrap_logo" width="50">
 <img src="https://github.com/user-attachments/assets/a511f25c-e418-4ad4-b740-60bf4f001fcd"alt="Bootstrap_logo" width="50">
-
+</div>
 
