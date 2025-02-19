@@ -17,7 +17,7 @@
 <img src="https://github.com/user-attachments/assets/7f9cf0c1-d9b7-49f3-b1d6-72d393bc9e59" alt="css-3" width="50">
 <img src="https://github.com/user-attachments/assets/4ba3e112-8491-436f-b73f-5ffd65760e71" alt="Bootstrap_logo" width="50">
 <img src="java-icon-1511x2048-6ikx8301](https://github.com/user-attachments/assets/dfa8c67b-afbd-49ed-8110-ed067791631e">
-<img src="https://github.com/user-attachments/assets/e331628c-d7df-4c57-ab20-9c70079a063d">
-<img src="https://github.com/user-attachments/assets/a511f25c-e418-4ad4-b740-60bf4f001fcd">
+<img src="https://github.com/user-attachments/assets/e331628c-d7df-4c57-ab20-9c70079a063d"alt="Bootstrap_logo" width="50">
+<img src="https://github.com/user-attachments/assets/a511f25c-e418-4ad4-b740-60bf4f001fcd"alt="Bootstrap_logo" width="50">
 
 
