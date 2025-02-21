@@ -3,6 +3,7 @@
  u can find some errors (or no 🙃)  in some codes because I have more than 3 years since I wrote them so I've push them without testing soooo if you've found these errors try to tell me so that i can correct them 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/fc0a9d3d-f01c-4dcc-acae-d3ade4fd339a" alt="sass" width="500">
+ <img src="https://github.com/user-attachments/assets/682a7d35-156c-4e1b-b790-8768cf310f5b"alt="Bootstrap_logo" width="500">
 </div>
 
 <br>
@@ -19,6 +20,6 @@
 <img src="https://github.com/user-attachments/assets/4ba3e112-8491-436f-b73f-5ffd65760e71" alt="Bootstrap_logo" width="50">
 <img src="java-icon-1511x2048-6ikx8301](https://github.com/user-attachments/assets/dfa8c67b-afbd-49ed-8110-ed067791631e">
 <img src="https://github.com/user-attachments/assets/e331628c-d7df-4c57-ab20-9c70079a063d"alt="Bootstrap_logo" width="50">
-<img src="https://github.com/user-attachments/assets/a511f25c-e418-4ad4-b740-60bf4f001fcd"alt="Bootstrap_logo" width="50">
+
 </div>
 
