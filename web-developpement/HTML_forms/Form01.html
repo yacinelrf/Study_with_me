@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form action="">
+    <fieldset class="cadre">
+        <Legend>formulaire d'inscription</legend>
+        <Br><label>Nom</label> <input class="inp" placeholder="saisir votre nom" type="text">
+        <Br><label>Prenom</label> <input class="inp" placeholder="saisir votre prenom" type="text">
+        <Br><label>Email</label> <input class="inp" placeholder="saisir votre Email" type="email">
+        <br><Label>Sexe</label>
+        <label class="inp">Masculin</label> <input class="inp" name="choix" type="radio">
+        <label class="inp">Féminin</label> <input class="inp" name="choix" type="radio">
+        
+        
+        
+        <Br><label>Photo</label> <input class="inp" name="image" type="file">
+        
+        
+        <br><Label>Pays</label>
+        <Select class="inp">
+        <Option>France</option>
+        <Option>Algérie</option>
+        <Option>Canada</option>
+        <Option>Italie</option>
+        </select>
+        
+        
+        <br><Label>Les languages <br> préférés</label ><fieldset class="hh"><p>
+         Java <br>C <br>C++ <br>PHP
+        </p></fieldset>
+            
+        <Br>Domaines <br> <label>d'activites</label>
+        <input class="inp" type="checkbox">Informatique
+        <input type="checkbox">Gestion
+        <input type="checkbox">Pedagogie
+        <center>
+        <Br><input value="Envoyer" type="submit"> <input value="Annuler" type="submit">
+        </center>
+        </fieldset>
+    </form>
+</html>
+<style>
+    .inp{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .cadre{
+        margin-left: 300px;
+        margin-right: 300px;
+        width: 500px;
+        
+    }
+    .hh{
+    width: 40px;
+    height: 50px;
+    overflow-y: scroll;
+    margin-left: 100px;
+    }
+</style>

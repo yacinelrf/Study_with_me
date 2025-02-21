@@ -1,0 +1,104 @@
+/* Write your CSS code here */body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(168, 177, 177);
+}
+
+video {
+
+    width: 30%;
+}
+
+.container {
+    background-color: azure;
+    margin-top: 10%;
+    width: 30%;
+    height: 50vw;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 2.5%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav p {
+    margin-top: -2%;
+    font-size: 0.9vw;
+}
+
+.nav i {
+    cursor: pointer;
+}
+
+.disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.disc img {
+    width: 70%;
+    height: 15vw;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+.title {
+    font-size: 1.3vw;
+    margin-bottom: 0%;
+}
+
+.artist {
+    margin-top: 0px;
+    opacity: 0.5;
+    font-size: 1vw;
+}
+
+.play {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.play i {
+    cursor: pointer;
+}
+
+.songs {
+    padding-left: 8%;
+    padding-top: 10%;
+}
+
+.songs p {
+    background-color: rgb(197, 197, 197);
+    width: 85%;
+    padding: 3%;
+    margin: 1%;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.songs p:hover {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    width: 88%;
+    margin: 0 -1%;
+    margin: 2% 0;
+    transition: 0.3s;
+
+}

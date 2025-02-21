@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.nevbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vw;
+    background-color: slategrey;
+    padding-right: 7%;
+    
+}
+.nevbar a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.4vw;
+}
+#logo{
+    margin-right: 50%;
+    margin-left: 7%;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Honk', system-ui;
+}
+.container img{
+    width: 25%;
+    position: absolute;
+    left: 60%;
+    top: 15vw;
+}
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+
+
+.h21 {
+    font-size: 2vw;
+     left: 10%;
+     top: 20vw;
+     position: absolute;
+     line-height: 1.5;
+     display: inline;
+     background-image: linear-gradient(
+        transparent 50%,
+        #e1fffe 50%,
+        #b0f8ff 85%,
+        transparent 85%,
+        transparent 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    animation: animatedBackground 2s infinite cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+}
+
+
+@keyframes animatedBackground {
+    to {
+        background-size: 100% 100%;
+    }
+}
+
+
+iframe{
+   width: 100%;
+   height: 700px;
+}
+#About{
+    margin-bottom: -3%;
+   margin-top: 30%;
+}
+#works{
+  margin-top: 10%;
+  
+
+}
+#contact{
+    height: 200px;
+}

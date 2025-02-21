@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yacine</title>
+</head>
+<body>
+    <div class="nav">
+        <p class="logo">Borcelle</p>
+        <p>HOME</p>
+        <p>ABOUT</p>
+        <p>COURSES</p>
+        <P>SHOP</P>
+        <P>CONTACT</P>
+    </div>
+
+</body>
+</html>
+<style>
+    body{
+       display: grid;
+       grid-template-columns: repeat(6,1fr) ;
+       grid-template-rows: 20%  20%  20%  20%  20%;
+       overflow: hidden;
+       padding: 0px;
+
+    }
+    .nav{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-content: center;
+        
+    }
+
+    .logo{
+        align-self:flex-start;
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        justify-self: start;
+    }
+    .image{
+        grid-column: 1/7;
+        grid-row: 2/4;
+        height: 200px;
+        overflow: hidden;
+        padding-left: 100px;
+    }
+    .image img{
+        width: 1000px;
+        margin-top: 50px;
+        justify-self:center;
+    }
+</style>

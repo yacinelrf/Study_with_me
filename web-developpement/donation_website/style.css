@@ -1,0 +1,120 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: rgb(49, 49, 86);
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    padding: 4%;
+}
+
+.left h1 {
+    margin-bottom: 2%;
+    font-size: 3vw;
+}
+
+.left p {
+    width: 50%;
+}
+
+.right {
+    padding: 3%;
+}
+
+.right p {
+    margin-bottom: 10%;
+}
+
+.freq {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 26, 46);
+    width: 70%;
+    height: 3vw;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.freq p {
+    margin: 0%;
+    background-color: rgb(49, 49, 86);
+    width: 46%;
+    height: 80%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#rgt {
+    background-color: rgb(26, 26, 46);
+}
+
+.amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.amount p {
+    border: rgb(26, 26, 46) solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.p2 {
+    margin-top: 10%;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 5%;
+}
+
+.nom p {
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.nom input {
+    width: 60%;
+    margin-bottom: 4%;
+    height: 2.5vw;
+    background-color: rgb(49, 49, 86);
+    border: rgb(26, 26, 46) solid;
+    color: white;
+    padding-left: 2vw;
+}
+
+.btn {
+    color: rgb(178, 176, 195);
+
+}
+
+.btn input {
+    background-color: rgb(25, 101, 231);
+    color: white;
+    width: 30%;
+    height: 3vw;
+    cursor: pointer;
+    border: black;
+    border-radius: 2px;
+}

@@ -1,0 +1,55 @@
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    margin-bottom: 80px;
+  }
+  
+  .carre-contenu h2 {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu ul {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu + div {
+    text-align: center;
+  }
+  
+  .a-propos-main {
+    width: 50%;
+    margin: auto;
+  }
+  p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+
+
+}
+table{
+    border-collapse: collapse;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    align-items: center;
+}
+td{
+    border-style:solid ;
+    height: 20%;
+    width: 20%;
+    padding: 5%;
+    color: white;
+}
+th{
+  height: fit-content;
+  padding: 1%;
+  color: white;
+  border-style:solid ;
+    height: 20%;
+    width: 20%;
+}

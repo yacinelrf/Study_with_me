@@ -1,0 +1,464 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(213, 233, 250);
+    position: relative;
+    transition: 1s;
+    margin-top: 0vw;
+    transition: 4s;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    transition: 1s;
+    transition: 1s;
+
+}
+.profile img{
+    height: 100px;
+    width: 80px;
+    padding-bottom: 0%;
+    border-color: rgb(212, 213, 120);
+    border-style: solid;
+    background-color: rgb(155, 49, 49);
+    border-width: 3px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+
+    
+}
+.bio{
+width: 20vw;
+height: 12vw;
+margin-top: -2vw;
+z-index: -1;
+border-radius: 2vw;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: rgb(53, 82, 82);
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+transition: 1s;
+}
+.bio p{
+    color: aliceblue;
+    transition: 1s;
+
+}
+.icons{
+    background-color: rgb(53, 82, 82);
+    height: 25vw;
+    width: 6vw;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 70%;
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+
+}
+.icons:hover{
+    background-color: rgb(53, 82, 82);
+    height: 27vw;
+    width: 7vw;
+    position: absolute;
+    margin-top: 29.5%;
+    margin-left: 69.5%;
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    
+}
+.icons div{
+    border-radius: 30px;
+    background-color: aliceblue;
+    height: 4.8vw;
+    width: 4.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+
+.icons img{
+    height: 3vw;
+}
+
+.settings:hover{
+    animation: turn 1s ease-in-out infinite reverse;;
+}
+.bell:hover{
+    animation: turnRight 1s ease-in-out infinite reverse;;
+    
+}
+@keyframes turn{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+@keyframes turnRight {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(45deg);
+    }
+    20% {
+        transform: rotate(-45deg);
+    }
+    30% {
+        transform: rotate(45deg);
+    }
+    40% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    60% {
+        transform: rotate(-45deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.screen img:hover{
+    height: 3.4vw;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.user img:hover{
+    height: 3.5vw;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.content{
+    background-color: rgb(53, 82, 82);
+    width: 25%;
+    position: absolute;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    border-radius: 20px;
+    margin-top: 35vw;
+    margin-left: 28vw;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.content img{
+    width: 25px;
+}
+.lock{
+    height: 4%;
+    width: 9%;
+    margin-top: 2%;
+    opacity: 1;
+    
+}
+
+.text{
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.7vw;
+    transition: 1s;
+
+}
+
+.bg{
+    background-color: rgb(209, 221, 233);
+    font-size: 1vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-color: rgba(53, 82, 82, 0.255);
+    border-style:solid;
+    margin-top: 1vw;
+    color: black;
+    transition: 1s;
+    
+
+}
+.discription{
+    font-size: 1vw;
+    margin-top: 1vw;
+    transition: 1s;
+}
+.text button{
+    height: 4vw;
+    width: 80%;
+    margin-top: 1vw;
+    font-size: 1vw;
+    color: black(212, 213, 120);
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+.text button:hover{
+    height: 4vw;
+    width: 80%;
+    margin-top: 1vw;
+    font-size: 13px;
+    color: rgb(212, 213, 120);
+    background-color: rgb(155, 49, 49);
+    transition: 1s;
+    cursor: pointer;
+    border-style: solid;
+    position: relative;
+}
+
+.text button:hover:before{
+position: absolute;
+height: 4vw;
+width:100%;
+content: "";
+background-color: rgb(212, 213, 120) ;
+top: -5%;
+left: 0%;
+animation: btn1 2s ease-in-out infinite normal;;
+overflow: hidden;
+
+}
+
+@keyframes btn1{
+    0%{
+        width:10%;
+        height: 8%;
+    }
+    10%{
+        width:10%;
+        height: 8%;
+        margin-left: 90%;
+    }
+    15%{
+        width:2%;
+        height: 8%;
+        margin-left: 99%;
+    }
+    20%{
+        width:2%;
+        height: 20%;
+        margin-left: 99%;
+        margin-top: 0%;
+    }
+    25%{
+        width:2%;
+        height: 8%;
+        margin-left: 99%;
+        margin-top: 26%;
+    }
+    30%{
+        width:10%;
+        height: 8%;
+        margin-left: 92%;
+        margin-top: 26%;
+    }
+    40%{
+        width:10%;
+        height: 8%;
+        margin-left: -2%;
+        margin-top: 26%;
+    }
+    45%{
+        width:2%;
+        height: 8%;
+        margin-left: -2%;
+        margin-top: 26%;
+    }
+    50%{
+        width:2%;
+        height: 20%;
+        margin-left: -2%;
+        margin-top: 0%;
+    }
+    55%{
+        width:0%;
+        height: 0%;
+    }
+    100%{
+        width:0%;
+        height: 0%;
+    }
+
+ 
+}
+
+#notif{
+    position: absolute;
+    background-color: rgb(155, 49, 49);
+    height: 4vw;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 40%;
+    margin-top: -5.5%;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+    color:  rgb(212, 213, 120);
+    border-color:  rgb(212, 213, 120);
+    border-style: solid;
+    border-width: 3px;
+    z-index: 2;
+    transition: 0.5s;
+}
+#notif img{
+    height: 15px;
+    transform: rotate(-15deg);
+    margin-left: 10px;
+    filter:brightness(1.3);
+}
+.dark{
+    position: absolute;
+    height: 10vw;
+    width: 10%;
+    background-color: rgb(53, 82, 82);
+    border-radius: 20px;
+    margin-top: -12vw;
+    margin-left: 78vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+    transition: 2s;
+}
+.white{
+    height: 4vw;
+    background-color: rgb(53, 82, 82);
+    width: 50%;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0,0.5);
+    transition: 0.5s;
+    
+}
+.background{
+    height: 5vw;
+    width: 80%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: inset 2px 2px 2px rgb(0, 0, 0,0.5);
+    cursor: pointer;
+    
+}
+.notifs{
+    position: absolute;
+    height: 25vw;
+    background-color: rgb(53, 82, 82);
+    width: 20%;
+    border-radius: 20px;
+    margin-left: 78vw;
+    margin-top: -27vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 1s;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+
+}
+.notifs div{
+    height: 20%;
+    width: 90%;
+    background-color: rgb(213, 233, 250);
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    
+
+}
+.notifs div img{
+    height: 90%;
+    width: 30%;
+    border-radius: 50px;
+}
+.notifs div p{
+    font-size: 1vw;
+}
+.notifs div:hover{
+    height: 25%;
+    width: 95%;
+    background-color: rgb(213, 233, 250);
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+    transition: 0.5s;
+}
+
+#firstpage{
+    background-color: rgb(53, 82, 82);
+    width: 100%;
+    margin-top: -86.5vw;
+    height: 68.5vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 2s;
+    z-index: 3;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+}
+#firstpage p{
+    color: rgb(213, 233, 250);
+}
+#txt1{
+font-size: 4vw;
+font-weight: bold;
+}
+#txt2{
+font-size: 2vw;
+}
+#txt3{
+font-size: 2vw;
+}

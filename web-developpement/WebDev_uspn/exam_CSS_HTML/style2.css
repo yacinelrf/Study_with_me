@@ -1,0 +1,46 @@
+
+/*LARFI Yacine DL*/
+
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    position: absolute;
+}
+header, h2{
+    text-align: center;
+    padding: 20px;
+    color:rgb(66, 106, 111);
+}
+h2{
+    margin-top: 30px;
+}
+#introduction img, #principes img, #application img, #engagement img{
+    display: none;
+}
+nav{
+    position: relative;
+    text-align: center;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    text-decoration:underline 0px black solid;
+    color: cadetblue;
+    transition: 1s;
+}
+nav a:hover{
+    text-decoration:underline 2px black solid;
+    font-size: 1.5vw;
+    transition: 1s;
+}
+p,li{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}

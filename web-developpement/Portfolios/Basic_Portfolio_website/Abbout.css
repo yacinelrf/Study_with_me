@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    position: absolute;
+}
+
+
+img{
+position: relative;
+width: 300px;
+top: 250px;
+left: 30%;
+box-shadow:-70px 70px 10px rgba(247, 247, 222, 0.633) ;
+border-radius: 30px;
+}
+p,h1{
+position: relative;
+left: 100%;
+top: 30%;
+overflow:hidden;
+}
