@@ -136,6 +136,7 @@ void echanger_avec_client(int fd, const struct question *q)
     /* 1. Écriture du nombre de propositions */
     uint16_t nb_props = htons(q->nb_props);
     if (write(fd, &nb_props, sizeof(nb_props)) < 0)
+        /*écrit les données dans le descripteur de fichier fd*/
     perror_exit("write");
     /* 2. Écriture de l'énoncé */
     if (write(fd, q->enonce, strlen(q->enonce) + 1) < 0)
