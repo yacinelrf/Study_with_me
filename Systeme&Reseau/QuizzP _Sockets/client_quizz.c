@@ -54,14 +54,8 @@ int main(int argc, char *argv[])
 	close(sock);
 	return 0;
 }
-/** Essayer de se connecter en TCP à l'adresse IPv4 donnée en argument, au port
- * associé au Quizz Protocol.
- *
- * En cas de succès, retourne le descripteur de fichier associé à la socket
- * d'échange avec le serveur.
- * En cas d'échec, met fin au programme après avoir affiché un message d'erreur
- * sur la sortie standard des erreurs. */
-int connection_au_serveur(const char *addr_ipv4)b
+
+int connection_au_serveur(const char *addr_ipv4)
 {
     // Création de la socket
     int sock = socket(AF_INET, SOCK_STREAM, 0);
