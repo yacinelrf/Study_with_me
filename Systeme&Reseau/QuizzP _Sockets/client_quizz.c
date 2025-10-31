@@ -41,6 +41,14 @@ int connection_au_serveur(const char *addr_ipv4);
  * - Dire à l'utilisateur si sa réponse est correcte ou non
  */
 void echanger_avec_serveur(int sock);
+{
+    char buf[6]="plop!";
+    buf[5]='\0';
+    ssize_t n;
+    do{
+        n=write(sock,buf,6);
+    }while(n>0 && n<6);
+}
 void echanger_avec_serveur_test(int sock);
 
 int main(int argc, char *argv[])
@@ -73,7 +81,7 @@ int connection_au_serveur(const char *addr_ipv4)
     /* Conversion de l'adresse IPv4 car une adresse IP sous forme de chaîne de caractères
        (par exemple "192.168.1.100") ne peut pas être utilisée directement dans une structure
        sockaddr_in pour établir une connexion réseau. */
-    if (inet_pton(AF_INET, addr_ipv4, &sa.sin_addr) <= 0) {
+    if (inet_pton(AF_INET, addr_ipv4, &sa.sin_addr) <= 0) {//sa.sin_addr est de type struct
         perror("Adresse IPv4 invalide");
         close(sock);
         exit(EXIT_FAILURE);

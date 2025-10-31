@@ -43,9 +43,29 @@ int connection_au_client(int sock);
  * Retourne : toujours NULL. */
 void *worker(void *work);
 
+
 /* Mener tous les échanges avec le client connecté à la socket fd, ainsi que 
  * spécifié dans le Quizz Protocol, avec la question d'adresse q */
 void echanger_avec_client(int fd, const struct question *q);
+{
+    ssize_t n;
+    char *buf;
+    char *buf2;
+    buf2="plop!";
+    size_t i=0;
+    do{
+        n=read(fd,buf,1);
+    }while(n>0 && buf[i++]!='\0');
+    if(strcmp(buf,"plop!")==0){
+        do{
+            n=write(1,buf2,1);
+        }while(n>0 && buf2[i++]!='\0');
+    }else{
+        exit(0);
+    }
+    
+    
+}
 void echanger_avec_client_test(int fd, const struct question *q);
 
 int main(void)
